@@ -41,10 +41,9 @@ https://www.123684.com/s/k6J9jv-dyEuA
 
 有什么问题or建议可进行讨论和反馈
 如喜欢该项目，也可给我个star哦<_>
-按照惯例贴个coffee贴，嘿嘿
 
-![微信图片_20250510121645](https://github.com/user-attachments/assets/d02b811a-fb5f-43b7-943c-9e780146c057)
-![微信图片_20250510121637](https://github.com/user-attachments/assets/46772643-e191-4194-9a93-5519c534992f)
+
+
 
 
 ## 许可证
