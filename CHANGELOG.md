@@ -41,5 +41,5 @@
 - 自动扫描常见微信安装路径；找不到时弹出文件选择框手动指定。
 - 使用 PyInstaller 打包为单文件 `125.exe`，无需安装 Python 即可运行。
 
-[1.0.1]: https://github.com/simon12244/-/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/simon12244/-/releases/tag/v1.0.0
+[1.0.1]: https://github.com/simon12244/wechat-multi/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/simon12244/wechat-multi/releases/tag/v1.0.0

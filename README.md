@@ -4,11 +4,11 @@
 
 **一个极简的 Windows 微信多开小工具 · 双击即用**
 
-[![Release](https://img.shields.io/github/v/release/simon12244/-?style=flat-square&label=版本)](https://github.com/simon12244/-/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/simon12244/-/total?style=flat-square&label=下载)](https://github.com/simon12244/-/releases)
-[![License](https://img.shields.io/github/license/simon12244/-?style=flat-square&label=许可)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/simon12244/wechat-multi?style=flat-square&label=版本)](https://github.com/simon12244/wechat-multi/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/simon12244/wechat-multi/total?style=flat-square&label=下载)](https://github.com/simon12244/wechat-multi/releases)
+[![License](https://img.shields.io/github/license/simon12244/wechat-multi?style=flat-square&label=许可)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white)](#系统要求)
+[![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white)](#下载)
 
 [下载](#下载) · [功能](#功能) · [使用方法](#使用方法) · [常见问题](#常见问题) · [自己编译](#自己编译)
 
@@ -41,9 +41,9 @@
 
 | 方式 | 说明 |
 |---|---|
-| **[Releases 页面](https://github.com/simon12244/-/releases/latest)** | 推荐。下载 `125.exe`，双击即可运行，无需安装 Python |
+| **[Releases 页面](https://github.com/simon12244/wechat-multi/releases/latest)** | 推荐。下载 `125.exe`，双击即可运行，无需安装 Python |
 | [备用网盘链接](https://www.123684.com/s/k6J9jv-dyEuA) | 访问 GitHub 较慢时使用 |
-| [源码压缩包](https://github.com/simon12244/-/archive/refs/heads/main.zip) | 只有一个 `.py` 文件，可直接审阅和修改 |
+| [源码压缩包](https://github.com/simon12244/wechat-multi/archive/refs/heads/main.zip) | 只有一个 `.py` 文件，可直接审阅和修改 |
 
 `125.exe` 由 PyInstaller 打包，体积约 10 MB，**已包含 Python 运行时**。
 
@@ -65,7 +65,7 @@
 
 ### 方式一：直接使用打包好的程序（推荐）
 
-1. 从 [Releases](https://github.com/simon12244/-/releases/latest) 下载 `125.exe`
+1. 从 [Releases](https://github.com/simon12244/wechat-multi/releases/latest) 下载 `125.exe`
 2. **先确认微信已完全退出**（托盘图标也要退出，否则只会激活已有窗口）
 3. 双击 `125.exe`
 4. 点「双开」/「三开」，或在输入框填数量后点「确认」
@@ -75,7 +75,7 @@
 需要 Python 3.8 或更高版本。`tkinter` 是 Python 标准库，**不需要 pip 安装任何东西**。
 
 ```bash
-git clone https://github.com/simon12244/-.git
+git clone https://github.com/simon12244/wechat-multi.git
 cd -
 python wechat_multi_open.py
 ```
@@ -199,7 +199,7 @@ pyinstaller --onefile --noconsole --name 125 wechat_multi_open.py
 
 ## 反馈
 
-有问题或建议，欢迎在 [Issues](https://github.com/simon12244/-/issues) 提出。
+有问题或建议，欢迎在 [Issues](https://github.com/simon12244/wechat-multi/issues) 提出。
 如果这个工具帮到了你，给个 ⭐ 就是最好的支持。
 
 ---
