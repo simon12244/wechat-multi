@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# PyInstaller
+*.spec
+build/*/
+dist/*/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 打包产物
+*.exe
+125.exe
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
